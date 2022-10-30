@@ -1,69 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hello World</title>
-</head>
-<body>
-   <table>
-        <tr>
-            <td> 
-                <header>
-                    <nav>
-                        <ul>
-                            <a href="file:///Users/ziadadel/Desktop/learn_git/index.html#Contact"><li>Home</li></a>
-                            <a href="#About"><li>About</li></a>
-                            <a href="#Resume"><li>Resume</li></a>
-                            <a href="#Contact"><li>Contact</li></a>
-                        </ul>
-                    </nav>
-                </header>
-            </td>
-        </tr>
-        <tr>
-            <td>
-                <img src="file:///Users/ziadadel/Pictures/Photos%20Library.photoslibrary/resources/derivatives/5/504D7FB8-3C41-425F-AF7C-5509DA5F4967_1_105_c.jpeg" width="150" height="200">
-            </td>
-        </tr>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body id="Home">
+    <table>
+      <tr>
+        <td>
+          <header>
+            <nav>
+              <ul>
+                <a href="#Home"><li class="inline">Home</li></a>
+                <a href="#About"><li class="inline">About</li></a>
+                <a href="#Resume"><li class="inline">Resume</li></a>
+                <a href="#Contact"><li class="inline">Contact</li></a>
+              </ul>
+            </nav>
+          </header>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <img
+            src="img/F90FD3DF-779C-4612-A2EF-9C8549608CE3.JPG"
+            width="150"
+            height="200"
+          />
+        </td>
+      </tr>
     </table>
-    <br>
+    <br />
     <main>
-        <section id="About">
-            <h3>About</h3>
-            <p>My name is ziad adel and I am an Ex-Growth hacker at a YC startup and I took the decision to make a career shift to software engineering because I found that I am passionate about building and executing ideas in mind especially when it comes to SaaS business ideas</p> 
+      <section id="About" class="About">
+        <h3>About</h3>
+        <p>
+          My name is ziad adel and I am an Ex-Growth hacker at a YC startup and
+          I took the decision to make a career shift to software engineering
+          because I found that I am passionate about building and executing
+          ideas in mind especially when it comes to SaaS business ideas
+        </p>
+      </section>
+      <br />
+      <section id="Work">
+        <h3>Work</h3>
+        <p>I used to work as a growth hacker at a YC startup before</p>
+      </section>
+      <br />
+      <section id="Resume">
+        <h3>Resume</h3>
+        <a href="https://www.linkedin.com/in/ziad-adel-b602a8180/"
+          >LinkedIn Profile & Resume</a
+        >
+      </section>
+      <br />
+      <form id="form">
+        <section id="Contact">
+          <h3>Contact</h3>
+          Your Name <input type="text" name="Contact Name" /> Your Address
+          <input type="text" name="Address" /> Your Email Address
+          <input type="email" name="Email Address" />
         </section>
-        <br>
-        <section id="Work"> 
-            <h3>Work</h3>
-            <p>I used to work as a growth hacker at a YC startup before</p>
-        </section> 
-        <br>
-        <section id="Resume">
-            <h3>Resume</h3>
-            <a href="https://www.linkedin.com/in/ziad-adel-b602a8180/">LinkedIn Profile & Resume</a>
-        </section>
-        <br>
-        <form>
-            <section id="Contact">
-                <h3>Contact</h3> 
-                Your Name <input type="text" name="Contact Name">
-                Your Address <input type="text" name="Address">
-                Your Email Address <input type="email" name="Email Address">
-            </section>
-            <br>
-            <button>Submit</button>
-        </form>   
-    </main> 
-    <br>
+        <br />
+        <button class="Rounded">Submit</button>
+      </form>
+    </main>
+    <br />
     <footer>
-        <table>
-            <tr>
-                <td>This is my address</td>
-                <td>136 Banafseg 11, New Cairo</td>
-            </tr>
-        </table>
+      <table>
+        <tr>
+          <td>This is my address</td>
+          <td>136 Banafseg 11, New Cairo</td>
+        </tr>
+      </table>
     </footer>
-</body>
+  </body>
 </html>

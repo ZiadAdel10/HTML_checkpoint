@@ -1,0 +1,65 @@
+.About p {
+  color: #525245;
+  font-weight: bold;
+}
+
+#form button:hover {
+  color: blueviolet;
+}
+
+.Rounded {
+  border-radius: 20px;
+}
+
+nav {
+  display: inline-block;
+  margin-left: -40px;
+}
+html {
+  font-family: "Roboto";
+}
+
+.inline {
+  display: inline-block;
+}
+
+form {
+  background-color: azure;
+  border-top: solid black;
+  border-bottom: solid black;
+}
+
+button {
+  margin-bottom: 20px;
+}
+
+.About {
+  box-shadow: 0px 4px 8px 0px black;
+  border-radius: 20px;
+  transition: 0.3s;
+  padding: 20px;
+}
+
+#Work {
+  box-shadow: 0px 4px 8px 0px black;
+  border-radius: 20px;
+  transition: 0.3s;
+  padding: 20px;
+}
+
+#Resume {
+  box-shadow: 0px 4px 8px 0px black;
+  border-radius: 20px;
+  transition: 0.3s;
+  padding: 20px;
+  background-color: aqua;
+}
+
+footer {
+  font-weight: bold;
+  font-style: italic;
+  box-shadow: 0px 4px 8px 0px black;
+  border-radius: 20px;
+  transition: 0.3s;
+  padding: 20px;
+}
